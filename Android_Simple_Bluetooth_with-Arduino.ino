@@ -21,17 +21,17 @@ void loop(){
     char command = SerialBT.read(); //명령어 읽기
 
     switch(command){
-      case '1':
+      case '1': //신호 1을 받을 때 
         digitalWrite(ledPinA, HIGH); //led 켜기
         Serial.println("LED가 켜짐"); //시리얼 모니터에 출력
         break;
 
-        case '3':
+        case '3': //신호 3을 받을 때 
         digitalWrite(ledPinA, LOW); //led 끄기
         Serial.println("LED끄기");
         break;
 
-      case '2':
+      case '2': //신호 2을 받을 때 
         if(!ledBlinking){ //LED가 깜빡이는 동작 중이 아닌 경우에만 시작
           ledBlinking = true;
           while(ledBlinking){
@@ -51,7 +51,7 @@ void loop(){
         }
         break;
       
-      case '4':
+      case '4': //신호 4을 받을 때 
         if(ledBlinking){
           ledBlinking = false;
           digitalWrite(ledPinA, LOW);
