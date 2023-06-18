@@ -4,8 +4,6 @@ BluetoothSerial SerialBT;
 
 const int ledPinA = 5; //Led를 제어하기 위한 핀 번호
 const int buttonPin1 = 4; //버튼을 연결한 핀 번호
-const int blinkCount = 5; //깜박이는 횟수 설정
-
 
 bool ledAPowered = false; //LED 상태를 저장하기 위한 변수
 unsigned long previousTime = 0; //이전에 난수를 전송한 시간을 저장하는 변수
