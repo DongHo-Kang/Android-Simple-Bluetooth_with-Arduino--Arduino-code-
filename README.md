@@ -1,4 +1,4 @@
-# Android-Simple-Bluetooth_with-Arduino--Arduino-code-
+# Android-Simple-Bluetooth-Example를 활용한 프로젝트
 안드로이드 스튜디오와 아두이노에서 블루투스를 사용한 프로젝트(아두이노 코드)
 
 http://mcuhq.com/27/simple-android-bluetooth-application-with-arduino-example 를 활용하였습니다.
